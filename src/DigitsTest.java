@@ -20,7 +20,6 @@ class DigitsTest {
 
         Digits digits = new Digits(15704);
         assertEquals(5, digits.getDigitList().size());
-
         assertEquals(1, digits.getDigitList().get(0));
         assertEquals(5, digits.getDigitList().get(1));
         assertEquals(7, digits.getDigitList().get(2));
